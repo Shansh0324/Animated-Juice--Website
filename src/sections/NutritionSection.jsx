@@ -18,7 +18,7 @@ const NutritionSection = () => {
     } else {
       setLists(nutrientLists);
     }
-  }, [isMobile]);
+  }, [isMobile]) ;
 
   useGSAP(() => {
     const titleSplit = SplitText.create(".nutrition-title", {

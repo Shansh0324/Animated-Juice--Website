@@ -5,10 +5,10 @@ import { SplitText } from "gsap/all";
 const FlavorTitle = () => {
   useGSAP(() => {
     const firstTextSplit = SplitText.create(".first-text-split h1", {
-      type: "chars",
+      type:  "chars",
     });
     const secondTextSplit = SplitText.create(".second-text-split h1", {
-      type: "chars",
+      type: "chars" ,
     });
 
     gsap.from(firstTextSplit.chars, {

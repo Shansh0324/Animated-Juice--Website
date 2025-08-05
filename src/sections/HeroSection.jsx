@@ -13,15 +13,15 @@ const HeroSection = () => {
   });
 
   useGSAP(() => {
-    const titleSplit = SplitText.create(".hero-title", {
+    const titleSplit = SplitText.create(".hero-title ", {
       type: "chars",
     });
 
-    const tl = gsap.timeline({
+    const tl = gsap.timeline ({
       delay: 1,
     });
 
-    tl.to(".hero-content", {
+    tl.to(".hero-content ", {
       opacity: 1,
       y: 0,
       ease: "power1.inOut",

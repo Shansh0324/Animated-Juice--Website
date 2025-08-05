@@ -7,7 +7,7 @@ const MessageSection = () => {
     const firstMsgSplit = SplitText.create(".first-message", {
       type: "words",
     });
-    const secMsgSplit = SplitText.create(".second-message", {
+    const secMsgSplit = SplitText.create(".second-message ", {
       type: "words",
     });
     const paragraphSplit = SplitText.create(".message-content p", {

@@ -8,7 +8,7 @@ const BenefitSection = () => {
     const revealTl = gsap.timeline({
       delay: 1,
       scrollTrigger: {
-        trigger: ".benefit-section",
+        trigger: ".benefit-section" ,
         start: "top 60%",
         end: "top top",
         scrub: 1.5,
